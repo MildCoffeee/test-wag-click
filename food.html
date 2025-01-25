@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+
+    <style>
+        body {
+            background: #A31D1D;
+            font-family: 'Raleway', sans-serif;
+        }
+        .container {
+            display:grid;
+            grid-template-areas:
+            "top-left top-right"
+            "bottom-left bottom-right";
+            gap:30px;
+            height:100vh;
+            padding:80px;
+        }
+     img {
+        width:400px; height:400px;
+        border-radius:18px;
+
+     }
+
+     .menudo {
+        grid-area:top-left; /*para sa top left menudo*/
+        margin-top:20px;
+        justify-content:center; 
+        align-items:center;
+        padding:40px;
+       background-color:#E5D0AC;
+        border-radius:15px;
+        overflow:hidden;
+        text-align:center; 
+
+     }
+        
+     .sisig {
+        grid-area:top-right; /*top right sisig*/
+        margin-top:20px;
+        justify-content:center; 
+        align-items:center;
+        padding:40px;
+        background-color:#E5D0AC;
+        border-radius:15px;
+        text-align:center;
+        
+        
+
+
+     }
+     .ampalaya {
+        grid-area:bottom-left;
+        margin-top:20px;
+        justify-content:center; 
+        align-items:center;
+        padding:40px;
+        background-color:#E5D0AC;
+        border-radius:15px;
+        text-align:center;
+
+
+     }
+
+     .sinigang {
+        grid-area:bottom-right;
+        margin-top:20px;
+        justify-content:center; 
+        align-items:center;
+        padding:40px;
+        background-color:#E5D0AC;
+        border-radius:15px;
+        text-align:center;
+
+     }
+     p {
+        padding:10px 0;
+         margin:0;
+        text-align:center;
+        overflow:hidden;
+
+     }
+
+     .InButton {
+    text-align: center; 
+    margin-top: 50px; 
+}
+
+.InButton a {
+    display:inline-block; 
+    padding:10px 20px; 
+    margin:10px; 
+    background-color:#A888B5; 
+    color: white; 
+    text-decoration:none; 
+    border-radius:8px; 
+    font-size:18px; 
+    transition:all 0.3s ease; 
+}
+
+.InButton a:hover {
+    background-color:#A31D1D; 
+    transform:scale(1.065); 
+    font-size:20px;
+    padding:5px;
+}
+
+
+    </style>
+</head>
+<body>
+    
+    <div class="InButton">
+        <a href="posa.html">Cat Pictures</a>
+        <a href="myself.html">About me</a>
+        <a href="food.html">Foods I like</a>
+        <a href="games.html">Games</a>
+        <a href="hobbies.html">Things I do</a>
+    </div>
+    <br>
+    <div class="container">
+        <div class="menudo">
+    <img src="Menudo.png" alt="menudo picture">
+    <p>
+        This is Pork Menudo, one of the foods I'll never get tired of eating.
+        I can only eat it 5-6 times per year, 
+        and when it's made, it's the only food I'll eat until it's gone.
+    </p>
+        </div> 
+
+
+        <div class="sisig">
+    <img src="Sisig.jpg" alt="sisig picture">
+     <p>
+     This is Sisig, there are other variants but I prefer the pork version more.
+     We buy it like once or twice every 1-2 months.
+     </p>
+        </div>
+
+
+        <div class="ampalaya">
+     <img src="AmpalayaEgg.jpg" alt="ampalaya na may itlog image">
+     <p>
+       This is Ampalaya na may Itlog or Bitter melon with Egg in English. 
+       Even if the dish is simple, it's very tasty.
+     </p>
+        </div>
+
+
+        <div class="sinigang">
+     <img src="Sinigang.jpg" alt="sinigang na baboy">
+     <p>
+        This is Sinigang na baboy. Its very soft when eaten and its sour taste
+        makes my face make a funny face.
+     </p>
+        </div>
+
+    </div>
+</body>
+</html>

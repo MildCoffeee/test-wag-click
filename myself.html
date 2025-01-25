@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="CONTENT-TYPE" content="text/html; charset=UTF-8">
+  <title>Hello, World!</title>
+  <style>
+    body {
+        background-color:#B771E5;
+        height: 100vh;
+        font-family: Arial, sans-serif;
+        margin: 0;
+    }
+
+    h1 {
+        text-align: center;
+        color: white;
+    }
+
+    li {
+        list-style-type: none;
+    }
+
+    .InButton {
+        text-align: center; 
+        margin-top: 50px; 
+    }
+
+    .InButton a {
+        display: inline-block; 
+        padding: 10px 20px; 
+        margin: 10px; 
+        background-color: #A888B5; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 8px; 
+        font-size: 18px; 
+        transition: all 0.3s ease; 
+    }
+
+    .InButton a:hover {
+        background-color: #B771E5;
+        transform: scale(1.065); 
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .Chase {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding: 20px;
+        margin-top: 30px;
+        color: white;
+    }
+
+    .Chase ul {
+        list-style-type: none;
+        padding: 0;
+        margin: 10px;
+    }
+
+    .Chase img {
+        width: 300px; 
+        height: auto;
+        margin-left: 20px;
+    }
+
+    .Chase .spotify-button {
+        padding: 12px 24px;
+        font-size: 18px;
+        color: white;
+        background: linear-gradient(135deg, #441752, #B771E5); 
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+        margin-top: 20px;
+    }
+
+    .Chase .spotify-button:hover {
+        background: linear-gradient(135deg, #B771E5, #441752);
+        transform: scale(1.05);
+        box-shadow: 0 6px 15px rgba(0, 0, 0, 0.3);
+    }
+
+  </style>
+</head>
+<body>
+
+  <h1>About Me</h1>
+
+  <div class="InButton">
+    <a href="posa.html">Cat Pictures</a>
+    <a href="myself.html">About me</a>
+    <a href="food.html">Foods I like</a>
+    <a href="games.html">Games</a>
+    <a href="hobbies.html">Things I do</a>
+  </div>
+
+  <p style="text-align: center;">Hello! I'm Lorence, I'm 16 years old. I was born on February 15, 2008, in Bulacan. My favorite color is Purple. I enjoy playing online games and exploring new places with my friends. I also love listening to music, especially Chase Atlantic. My goal in life is to own a business.</p>
+
+  <h2 style="text-align: center;">Favorite Games</h2>
+  <ul style="text-align: center;">
+      <li>Battle Cats</li>
+      <li>Clash of Clans</li>
+      <li>Mobile Legends</li>
+      <li>Mindustry</li>
+  </ul>
+
+  <div class="Chase">
+    <div>
+        <h2>Favorite Songs by Chase Atlantic</h2>
+        <ul>
+            <li>Favela</li>
+            <li>Heaven and Back</li>
+            <li>Escort</li>
+            <li>No Rainbows</li>
+            <li>Too Late</li>
+        </ul>
+    </div>
+    
+    <div>
+        <img src="chaseatlantic.jpg" alt="image of Chase Atlantic">
+    </div>
+    
+    <div>
+        <p>Click the button below to see my playlist on Spotify</p>
+        <a href="https://open.spotify.com/playlist/5Drp5LjUB6iKssrORQ5u7X?si=AAD02KrjRPaJsoVg0fHlHQ&pi=b3UbgXpSSuKiI" target="_blank">
+            <button class="spotify-button">Listen to Chase Atlantic Playlist</button>
+        </a>
+    </div>
+  </div>
+
+</body>
+</html>
