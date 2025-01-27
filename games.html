@@ -3,7 +3,67 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Games</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <style>
+
+        body {
+       background-color: mediumslateblue;
+       background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100vh;
+  width:auto;
+   font-size: 17px;
+   font-family: 'Roboto', sans-serif;
+  }
+    .InButton {
+        text-align: center; 
+        margin-top: 50px; 
+    }
+
+    .InButton a {
+        display: inline-block; 
+        padding: 10px 20px; 
+        margin: 10px; 
+        background-color: #A888B5; 
+        color: white; 
+        text-decoration: none; 
+        border-radius: 8px; 
+        font-size: 18px; 
+        transition: all 0.3s ease; 
+    }
+
+    .InButton a:hover {
+        background-color: mediumslateblue;
+        transform: scale(1.065); 
+        font-size: 20px;
+        padding: 5px;
+    }
+
+    .image-games {
+        border-radius: 25%;
+        width:300px;
+        height:300px;
+        margin:50px;
+    }
+
+    .games {
+        display:flex;
+        flex-wrap: wrap;
+    }
+
+    .dawg {
+        max-width: 600px;  /* Limit the maximum width to 800px */
+  max-height: 650px; /* Limit the maximum height to 600px */
+  width: 80%;       /* The container can shrink down to 100% of its parent’s width */
+  height: auto;      /* The height will adjust according to the content, but not exceed 600px */
+  overflow: hidden;  /* Prevent overflow beyond the container */
+  padding:100px;
+}
+
+    </style>
 </head>
 <body>
     <div class="InButton">
@@ -13,5 +73,36 @@
         <a href="games.html">Games</a>
         <a href="hobbies.html">Things I do</a>
     </div>
+<div class="games">
+ <!--battle cats, mindustry, bloons td 6, mlbb, clash of clans-->
+ <div class="dawg">
+ <img src="mindustry.jpg" alt="mindustry image" class="image-games">
+ <p>Mindustry is an offline game that I played during the pandemic, not only it doesn't require WiFi for me to play,
+    Its very addicting.
+ </p>
+</div>
+<div class="dawg">
+  <img src="battlecats.jpg" alt="battle cats image" class="image-games">
+  <p>Battle cats is a cat game where you have to defeat different types of enemy with alot of cats by gacha 
+    to make progress easier. I got bored playing when I first started but its good to play now.
+  </p>
+</div>
+<div class="dawg">
+<img src="bloons.jpg" alt="bloons td 6 image" class="image-games">
+ <p>Bloons TD 6 is a tower defense game where you have to defeat enemies which are balloons in the game to win, 
+    there are different types of modes and minigames which makes the game entertaining.
+ </p> 
+
+</div>
+<div class="dawg">
+<img src="mlbb.jpg" alt="mobile legends bang bang image" class="image-games">
+<p>Mobile legends bang bang is probably the oldest game that I still play, its a 5v5 with different modes, alot of heroes to choose from, 
+    and tons of mechanics which makes the game fun to play. </p>
+</div>
+<img src="coc.jpg" alt="Clash of Clans image" class="image-games">
+<p>Clash of Clans is a strategy game to attack other players base and gain loot to level up your base further.
+    It can take months just to level up your townhall.</p>
+</div>
+
 </body>
 </html>
